@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDownloader.ConsoleUI", "YoutubeDownloader.ConsoleUI\YoutubeDownloader.ConsoleUI.csproj", "{595B639F-02B3-477C-B43E-2D9478805363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDownloader.Core", "YoutubeDownloader.Core\YoutubeDownloader.Core.csproj", "{EE439EA9-48E0-4FF2-B63B-3942C5EDB7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDownloader.DesktopUI", "YoutubeDownloader.DesktopUI\YoutubeDownloader.DesktopUI.csproj", "{BDB9FE3A-6E37-412C-B8E6-6FF861BC2D48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{595B639F-02B3-477C-B43E-2D9478805363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595B639F-02B3-477C-B43E-2D9478805363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595B639F-02B3-477C-B43E-2D9478805363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595B639F-02B3-477C-B43E-2D9478805363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE439EA9-48E0-4FF2-B63B-3942C5EDB7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE439EA9-48E0-4FF2-B63B-3942C5EDB7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE439EA9-48E0-4FF2-B63B-3942C5EDB7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE439EA9-48E0-4FF2-B63B-3942C5EDB7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB9FE3A-6E37-412C-B8E6-6FF861BC2D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB9FE3A-6E37-412C-B8E6-6FF861BC2D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB9FE3A-6E37-412C-B8E6-6FF861BC2D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB9FE3A-6E37-412C-B8E6-6FF861BC2D48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
