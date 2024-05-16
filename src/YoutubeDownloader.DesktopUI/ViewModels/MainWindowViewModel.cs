@@ -8,6 +8,7 @@ using YoutubeExplode.Videos.Streams;
 
 namespace YoutubeDownloader.DesktopUI.ViewModels;
 
+// ReSharper disable once ClassNeverInstantiated.Global
 public partial class MainWindowViewModel : ObservableObject
 {
     private readonly IVideoServiceFactory _videoServiceFactory;
@@ -70,7 +71,7 @@ public partial class MainWindowViewModel : ObservableObject
         }
         catch (Exception ex)
         {
-            Debug.WriteLine(ex);
+            MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
         finally
         {
@@ -122,6 +123,8 @@ public partial class MainWindowViewModel : ObservableObject
         }
         finally
         {
+            _cancellationTokenSource?.Dispose();
+            
             progress.ProgressChanged -= UpdateDownloadProgress;
             
             DownloadProgress = 0;
